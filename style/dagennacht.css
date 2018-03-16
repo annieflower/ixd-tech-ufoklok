@@ -1,0 +1,135 @@
+/*VLIEGENDE UFO*/
+#ufo{
+  position: absolute;
+  width: auto;
+  height: 20%;
+  left: -400px;
+  bottom: 65%;
+}
+/*DATUM*/
+#date {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: Courier New;
+}
+
+/*ACHTERGROND*/
+body {
+  background-image: url(images/morning.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*Begroetingen*/
+#night{
+    font-family: Courier New;
+    color: white;
+}
+#morning{
+  font-family: Courier New;
+  color: white;
+}
+#afternoon{
+  font-family: Courier New;
+  color: white;
+}
+
+/*KLOK*/
+#txt{
+	font-family: Georgia;
+	color: white;
+}
+
+
+
+/*RESPONSIVE mediaqueries*/
+@media only screen and (min-width: 300px) { /*MOBIEL*/
+    #night{
+        font-size: 20px;
+        margin-left: 24.5%;
+        margin-top: 0;
+      }
+
+      #afternoon{
+        font-size: 20px;
+        margin-left: 18%;
+        margin-top: 0;
+      }
+
+      #morning{
+        font-size: 20px;
+        margin-left: 24.5%;
+        margin-top: 0;
+      }
+
+      #txt{
+        font-size: 20px;
+        margin-left: 20%;
+        margin-top: 20%;
+        padding: 1px;
+      } 
+               
+
+@media only screen and (min-width: 600px) {  /*Tablet  */ 
+      #night{
+        font-size: 5px;
+        margin-left: 24.5%;
+        margin-top: 0;
+      }
+
+      #afternoon{
+        font-size: 50px;
+        margin-left: 18%;
+        margin-top: 0;
+      }
+
+      #morning{
+        font-size: 50px;
+        margin-left: 24.5%;
+        margin-top: 0;
+      }
+
+      #txt{
+        font-size: 100px;
+        margin-left: 20%;
+        margin-top: 20%;
+        padding: 10px;
+      } 
+      
+    } 
+
+
+@media only screen and (min-width: 850px) {  /*Desktop*/
+
+      #night{
+        font-size: 100px;
+        margin-left: 24.5%;
+        margin-top: 0;
+      }
+
+      #afternoon{
+        font-size: 100px;
+        margin-left: 18%;
+        margin-top: 0;
+      }
+
+      #morning{
+        font-size: 100px;
+        margin-left: 24.5%;
+        margin-top: 0;
+      }
+
+      #txt{
+        font-size: 200px;
+        margin-left: 20%;
+        margin-top: 20%;
+        padding: 10px;
+      } 
+}
+
